@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Mobile */
+
+@media  only screen and  (max-width: 768px),  only screen and (max-device-width: 768px){
+   
+    body{
+        overflow: hidden;
+    }
+
+    /* box - 01*/
+    #rec-01{
+        width: 300px;
+        height: 500px;
+        border-radius: 35px;
+        margin: 40px 0px 0px 31px;
+        transition: 1000ms;
+    }
+
+    /* fist title box- 01 */
+    #title-01{
+        width: 303px;
+        height: 50px;
+        position: absolute;
+        font-size: 26.9076px;
+        margin: 66px 0px 0px 30px;
+        transition: 500ms;
+    }
+
+    /* object tab first title */
+    .target{
+        width: 40px;
+        position: absolute;
+        margin: 110px 0px 0px 31px;
+        border: 2px solid #0DCA7A;
+        transition: 500ms;
+    }
+
+    /*Icons Network Social*/
+    #img{
+        width: 159px;
+        height: 34px;
+        position: absolute;
+        margin: 132px 0px 0px 62px;
+        transition: 500ms;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background: url(./img/icons.png);
+    }
+
+    /*Second Title Tab Of Icons Network Social */
+    #title-04{
+        width: 173px;
+        margin: 179px 0px 0px 75px;
+        transition: 500ms;
+    }
+
+    /* Email Inside box - 01 */
+    #Email{
+        width: 249px;
+        transition: 500ms;
+        margin: 87px 0px 0px 124px;
+    }
+
+    /* Password Inside box - 01*/
+    #Password{
+        width: 249px;
+        margin: 18px 0px 0px 124px;
+        transition: 500ms;
+    }
+
+    /*Email, Password, Checkbox and Forgot Your Password*/
+    form{
+        width: 100px;
+        height: 200px;
+        position: absolute;
+        margin: 131px 0px 0px -100px;
+        transition: 500ms;
+    }
+
+    /* Checkbox Inside box - 01*/
+    #click{
+        width: 16px;
+        height: 16px;
+        margin: 21px 0px 0px 123px;
+        border: 0.8px solid rgba(109, 104, 104, 0.61);
+        border-radius: 2.4px;
+        transition: 500ms;
+        cursor: pointer;
+    }
+
+
+    /* Remember*/ 
+    #title-05{
+        margin: -20px 0px 0px 150px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 11.6339px;
+        transition: 500ms;
+        letter-spacing: 0.02em;
+        color: rgb(109, 104, 104);
+        cursor: pointer;
+        width: 120px;
+        position: absolute;
+    }
+
+    /* Forgot Your Password*/
+    #title-06{
+        width: 120px;
+        position: absolute;
+        transition: 500ms;
+        margin: -22px 0px 0px 271px;
+    }
+
+    /* center button inside box -01*/
+    #button{
+        width: 121px;
+        height: 40px;
+        position: absolute;
+        border-style: none;
+        border-radius: 19px;
+        background: #0DCA7A;
+        margin: 223px 0px 0px 182px;
+        transition: 500ms;
+        font-weight: bold;
+        font-style: normal;
+        font-size: 19.0001px;
+        letter-spacing: 0.02em;
+    }
+}
